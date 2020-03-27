@@ -13,12 +13,29 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
     />
+    <script src="index.js" defer></script>
   </head>
   <body>
     <header>
       <nav>
         <div class="navigation-logo"><i class="fas fa-adjust"></i></div>
         <div class="navigation-menu-desktop">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#elements">Elements</a></li>
+            <li><a href="#showcase">Showcase</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="nav-bar-mobile-collapsed">
+          <button class="button-mobile-menu" id="button-mobile-menu-expand">
+            <i class="fa fa-angle-left"></i>
+          </button>
+        </div>
+        <div class="nav-bar-mobile">
+          <button class="button-mobile-menu" id="button-mobile-menu-collapse">
+            <i class="fa fa-angle-right"></i>
+          </button>
           <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#elements">Elements</a></li>

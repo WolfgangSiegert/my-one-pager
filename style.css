@@ -35,7 +35,9 @@ button {
 header {
   background-color: var(--bg-color-secondary);
   position: sticky;
+  top: 0px;
 }
+
 body {
   margin: 0;
   background-color: var(--default-background-color);
@@ -102,6 +104,42 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+}
+
+.nav-bar-mobile-collapsed {
+  display: none;
+}
+@media (max-width: 600px) {
+  .nav-bar-mobile-collapsed {
+    display: initial;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+  }
+}
+
+.nav-bar-mobile {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  padding: 1rem 2rem;
+  background-color: var(--bg-color-secondary);
+  text-align: right;
+  transform: translateX(100%);
+  transition: all 0.5s;
+  visibility: hidden;
+}
+.nav-bar-mobile-expanded .nav-bar-mobile {
+  visibility: visible;
+  transform: translateX(0);
+}
+
+.button-mobile-menu {
+  color: var(--theme-color-primary);
+  margin: 1rem 0;
+  font-size: 2rem;
+  cursor: pointer;
 }
 
 .navigation-menu-desktop li {
