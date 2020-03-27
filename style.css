@@ -121,7 +121,7 @@ nav {
   }
   header {
     position: initial;
-    background-color: var(--default-background-color);
+    background-color: rgba(0, 0, 0, 0);
   }
 }
 
