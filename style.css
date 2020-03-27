@@ -116,6 +116,13 @@ nav {
     top: 1rem;
     right: 1rem;
   }
+  .navigation-menu-desktop {
+    display: none;
+  }
+  header {
+    position: initial;
+    background-color: var(--default-background-color);
+  }
 }
 
 .nav-bar-mobile {
