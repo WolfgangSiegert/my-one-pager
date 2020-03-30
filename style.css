@@ -113,13 +113,13 @@ nav {
   .nav-bar-mobile-collapsed {
     display: initial;
     position: fixed;
-    top: 1rem;’
+    top: 1rem;
     right: 1rem;
   }
   .navigation-menu-desktop {
     display: none;
   }
-  
+
   header {
     position: initial;
     background-color: rgba(0, 0, 0, 0);
@@ -150,9 +150,6 @@ nav {
     margin-bottom: 2rem;
   }
 }
-  
-}
-
 .nav-bar-mobile {
   position: fixed;
   right: 0;
